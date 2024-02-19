@@ -1,5 +1,27 @@
 h1{
-    color: rgb(28, 75, 184);
+    color: black;
     font-size: 50px;
     text-align: center;
+}
+body{
+    background-color: rgb(9, 112, 164);
+}
+
+/* Path: index.html */
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: orange;
+}
+
+nav ul li a:hover{
+    color: #f1c40f;
 }
