@@ -1,0 +1,29 @@
+/* ---- CSS Demo ---- */
+
+/*  ---------------Box Sizing-----------------  */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /*  ---------------color themes-----------------  */
+  /*  ---------------https://color.adobe.com/search?q=forest----------- */
+
+  /*  ---------------#252940----darkblue/grey- */
+  /*  ---------------#5A6273---dark grey------ */
+  /*  ---------------#8F96A6---grey----------- */
+  /*  ---------------#C5CCD9---light grey----- */
+  /*  ---------------#E9ECF2---grey/white----- */
+
+  body{
+    font-family: "Source Serif 4", serif;
+    background-color: #C5CCD9;
+  }
+
+  header.primary{
+    background-color: #252940;
+    }
+    
