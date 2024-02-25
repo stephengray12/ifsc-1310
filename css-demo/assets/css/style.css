@@ -23,7 +23,71 @@ html {
     background-color: #C5CCD9;
   }
 
-  header.primary{
-    background-color: #252940;
-    }
-    
+    header.primary {
+      background-color:#5A6273;
+      color:#ffffff; 
+      text-align:center;  
+      text-shadow:2px 2px #000000;
+      /*long form*/
+      padding-top: 40px;
+      padding-right: 40px;
+      padding-bottom: 40px;
+      padding-left: 40px;  
+      /*Single value short hand*/  
+      padding:40px;  
+      /* T,R,B,L */
+      padding: 20px 40px 20px 40px;  
+      /* Two Value Top/Bottom / L/R */
+      padding: 20px 40px;  
+      }
+      
+      header.primary h1 {
+        font-size: 2.4rem;
+        margin:20px 0 0;
+      }
+      
+      header.primary h1 a{
+        color:#ffffff;
+        text-decoration:none;
+      }
+      
+      header.primary h2 {
+        margin:0;
+        font-size: 1.4rem;
+      }
+      
+      header.primary nav{
+        max-width:900px;
+        margin: 20px auto;
+      }
+      
+      header.primary ul {
+        padding:10px 0;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-around;
+      }
+      
+      header.primary ul li{
+        list-style-type:none;
+      }
+      
+      header.primary nav a{
+        color:#fff;
+        text-decoration:none;
+        background-color:rgba(0,0,0,.4);
+        padding:7.5px 10px;
+        border-radius: 20px;
+        border: 1px solid #c0c0c0;
+        transition:.4s;
+      }
+      
+      header.primary nav a:hover{
+        background-color:rgba(0,0,0,.8);
+      }
+      
+      
+      
+      
+      
+      
