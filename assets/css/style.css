@@ -1,4 +1,19 @@
 
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+
+
+
 nav ul{
     list-style: none;
     display: flex;
@@ -28,7 +43,12 @@ nav ul li a:hover{
 }
 
 body{
-    background-color: darkgrey
+    background-color: darkgrey;
+        font-family: 'Times New Roman', Times, serif, sans-serif;
+        margin: auto;
+        padding:auto;
+      
+      
 }
 
 h2{
@@ -61,6 +81,7 @@ h1{
 .text{
    border: 1px solid black;
    padding: 20px;
+   margin:-12px;
    background-color: burlywood;
    border-radius: 50px 25px;
    
@@ -68,3 +89,30 @@ h1{
    
 }
 
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+      gap:10px;
+      max-width:360px;
+      margin:auto;
+      
+    }
+     nav a{
+      display:block;
+    }
+
+    nav li {
+        margin: auto;
+    }
+  }
