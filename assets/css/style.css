@@ -47,6 +47,7 @@ body{
         font-family: 'Times New Roman', Times, serif, sans-serif;
         margin: auto;
         padding:auto;
+        
       
       
 }
@@ -104,7 +105,7 @@ h1{
     nav ul {
       flex-direction: column;
       gap:10px;
-      max-width:360px;
+      max-width:device-width;
       margin:auto;
       
     }
@@ -115,4 +116,8 @@ h1{
     nav li {
         margin: auto;
     }
+    .text{
+        margin: auto;
+    }
+
   }
