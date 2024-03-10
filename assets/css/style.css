@@ -10,91 +10,54 @@ html {
     box-sizing: inherit;
   }
 
-
-
-
-
-nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 20px;
+*{
+    font:times new roman;
     
 }
 
-nav ul li a{
-    display: flexbox;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-family: 'times new roman';
-    font-weight: bold;
-    border: 3px solid black;
-    border-radius: 50px;
-    padding: 10px;
-    background-color: rgb(16, 198, 198);
-    margin: auto;
-    
-    
-}
 
-nav ul li a:hover{
-    color: #f1c40f;
+h1{
+    display:flexbox;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 
 body{
-    background-color: darkgrey;
-        font-family: 'Times New Roman', Times, serif, sans-serif;
-        margin: auto;
-        padding:auto;
-        
-      
-      
+    background-color: gray;
 }
 
-h2{
-    text-align: center;
-    margin-top: 50px;
-    font-size: 50px;
-    color:black;
-    text-decoration: underline;
-}
-
-h1{ 
-    color: black;
-    border: 3px solid black;
+li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
     padding: 10px;
-    margin: 10px;
-    text-align: center;
-    background-color: rgb(20, 106, 117);
-    
+    margin:auto;
+    padding:auto;
 
 }
 
-.position li{
-    display: flexbox;
-    justify-content: space-between;
-    margin-top: 30px;
-    padding: 30px;
-    
+ul {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
 }
 
-.text{
-   border: 1px solid black;
-   padding: 20px;
-   margin:-12px;
-   background-color: burlywood;
-   border-radius: 50px 25px;
-   
-   
-   
+li a{
+    color: white;
+    text-decoration: none;
+    background-color:rgb(71, 69, 69);
+    padding: 7.5px 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: 0.4s;
 }
 
-
-
-
-
-
+li a:hover{
+    background-color: rgb(27, 26, 26);
+}
 
 
 
@@ -102,22 +65,13 @@ h1{
 
 
 @media screen and (max-width: 600px) {
-    nav ul {
+     ul {
       flex-direction: column;
       gap:10px;
-      max-width:device-width;
+      max-width:250px;
       margin:auto;
-      
     }
      nav a{
       display:block;
     }
-
-    nav li {
-        margin: auto;
-    }
-    .text{
-        margin: auto;
-    }
-
   }
