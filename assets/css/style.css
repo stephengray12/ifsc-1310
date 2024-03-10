@@ -18,6 +18,7 @@ html {
 
 h1{
     display:flexbox;
+    text-align: center;
     background-color: black;
     color: white;
     padding: 20px;
@@ -48,16 +49,27 @@ ul {
 li a{
     color: white;
     text-decoration: none;
-    background-color:rgb(71, 69, 69);
+    background-color: rgb(86, 8, 8);
     padding: 7.5px 10px;
     border-radius: 20px;
-    border: 1px solid white;
+    border: 3px solid black;
     transition: 0.4s;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 li a:hover{
-    background-color: rgb(27, 26, 26);
+    background-color: rgb(45, 44, 44);
+    transition: .5sec;
+    box-shadow: 0 15px 20px rgba(0,0,0,.6);
+    color:black;
 }
+
+
+
+
+
+
 
 
 
