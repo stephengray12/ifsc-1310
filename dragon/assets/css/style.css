@@ -76,6 +76,7 @@ header.primary nav {
     justify-content: space-evenly;
     align-items: center;
   
+  
   }
 
   h2{
@@ -89,6 +90,7 @@ header.primary nav {
       display: flex;
       flex-direction: row;
       gap: 10px; 
+      
     }
     
   
@@ -133,6 +135,9 @@ header.primary nav {
 
   footer h6{
     font-size: 20px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
   }
 
 
@@ -144,7 +149,7 @@ header.primary nav {
   }
 
   #colophon {
-    position: absolute;
+    position: fixed;
     bottom:0;
     width: 100%;
   }
