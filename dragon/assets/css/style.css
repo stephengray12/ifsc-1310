@@ -145,8 +145,8 @@ header.primary nav {
     position: clear;
     bottom:0;
     width: 100%;
-    background-color: rgb(27, 26, 26);
-    opacity: .7;
+    background-color: black;
+   
   }
    
   main{
@@ -246,14 +246,12 @@ img{
 }
 
 #colophon p{
-  background-color: rgb(27, 26, 26);
-  opacity: .7;
   color: white;
+  background-color: black;
 }
 #colophon p a{
   color:rgb(95, 197, 238);
-  background-color: rgb(27, 26, 26);
-  opacity: .7;
+  
 }
 
 p{
@@ -273,6 +271,76 @@ p{
   margin: 10px 0;
 }
 
+/*  --------------- FAQ -----------------  */
+
+.main-3{
+  background-color: grey;
+}
+
+.faq-content p{
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  margin:10px;
+  border-radius: 10px;
+
+}
+
+.faq-content li{
+  color: white;
+  text-align: center;
+  padding: 15px;
+ 
+}
+
+.faq-title{
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* --------------- History----------------- */
+
+
+table{
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px;
+  background-color: rgb(27, 26, 26);
+  opacity: .9;
+  border-radius: 25px 50px 25px 50px;
+  
+}
+
+th{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
+}
+
+td{
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+tr:nth-child(even){
+  background-color: grey;
+}
+
+.history-info{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+  background-color: rgb(27, 26, 26);
+  opacity: .9;
+}
+
+.info h2{
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
 
     
 
