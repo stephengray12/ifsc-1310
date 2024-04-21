@@ -123,25 +123,18 @@ header.primary nav {
   }
 
   footer {
-    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
     padding: 10px;
     font: 1.2rem Arial, sans-serif;
     opacity: .7;
     
-
+  
   }
 
-  footer h6{
-    font-size: 20px;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-  }
+ 
 
-
-  footer h6 span {
+ #colophon footer h6 span {
     color: white;
     font-weight: bold;
     font-size: x-large;
@@ -149,17 +142,22 @@ header.primary nav {
   }
 
   #colophon {
-    position: relative;
+    position: clear;
     bottom:0;
     width: 100%;
+    background-color: rgb(27, 26, 26);
+    opacity: .7;
   }
    
   main{
     background-image: url('../img/spaxexdragon.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; 
     width: 100%; 
+}
+
+.main-p{
+  padding: 10px;
 }
 
 img{
@@ -186,7 +184,11 @@ img{
   padding: 2rem 0;
   border-top:1px dotted black;
   flex-wrap:wrap;
+
 }
+
+
+
 
 #blog h2 {
   flex:0 0 100%;
@@ -196,13 +198,14 @@ img{
 
 #blog .post{
   box-shadow: 0 4px 8px rgba(0,0,0,.6);
-  background-color: rgb(47, 46, 46);
+  background-color: rgb(27,26,26);
   padding: 10px;
   border-radius:4px;
   font-size:.8rem;
   transition:.5s;
   flex:1;
   color:white;
+  opacity: .9;
 }
 
 #blog figure{
@@ -226,6 +229,14 @@ img{
   margin:0;
 }
 
+.container img{
+
+  width: 100%;
+  height: 200px;;
+  margin: 10px 0;
+ 
+}
+
 #blog a{
   color:rgb(30, 148, 194);
 }
@@ -234,11 +245,35 @@ img{
   box-shadow: 0 15px 20px rgba(0,0,0,.6);
 }
 
-p{
+#colophon p{
   background-color: rgb(27, 26, 26);
   opacity: .7;
   color: white;
 }
+#colophon p a{
+  color:rgb(95, 197, 238);
+  background-color: rgb(27, 26, 26);
+  opacity: .7;
+}
+
+p{
+  color:white;
+  background-color: rgb(27, 26, 26);
+  opacity: .7;
+}
+
+.post-content li span{
+  text-decoration: underline;
+  ;
+  
+}
+
+.post-content li{
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+
     
 
   
