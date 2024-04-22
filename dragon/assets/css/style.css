@@ -1,12 +1,21 @@
 
-html {
-    box-sizing: border-box;
-  }
+
+    html {
+      box-sizing: border-box;
+      height: 100vh;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+  
   *,
   *:before,
   *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
   }
+
+  
   /*  --------------- Responsive Images -----------------  */
 
 img{
@@ -48,21 +57,23 @@ img{
   border-radius:50px ;
 }
 
+/*  --------------- Home Page -----------------  */
+
   body {
     background-color: rgb(23, 22, 22);
     font-family: Rubik, sans-serif;
     margin: 0;
+    height: 100vh;
+    width:100vw;
+    padding: 0;
+    
     
   }
-  *{
-    margin: 0;
-    padding: 0;
-  
-  }
+ 
   
   .primary{
-    background-color: rgb(15, 14, 14);
-    opacity: .7;
+    background-color: rgb(27, 26, 26);
+    
     display: flexbox;
     
   }
@@ -142,10 +153,12 @@ header.primary nav {
   }
 
   #colophon {
-    position: clear;
+    position: bottom;
     bottom:0;
     width: 100%;
     background-color: black;
+    padding: 10px;
+    
    
   }
    
@@ -154,10 +167,12 @@ header.primary nav {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%; 
+    
 }
 
 .main-p{
   padding: 10px;
+  margin: 20px;
 }
 
 img{
@@ -194,6 +209,7 @@ img{
   flex:0 0 100%;
   margin:0;
   text-align:center;
+  text-decoration: underline;
 }
 
 #blog .post{
