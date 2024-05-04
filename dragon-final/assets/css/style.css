@@ -1,0 +1,424 @@
+
+
+html {
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+/*  --------------- Responsive Images -----------------  */
+
+img{
+max-width:100%;
+height: auto;
+}
+
+
+/*  --------------- Utility Classes -----------------  */
+
+.container{
+max-width: 960px;
+width:80vw;
+margin:40px auto;
+}
+
+.img-right{
+float:right;
+margin: 10px 0 10px 20px;
+border:1px solid black;
+padding:5px;
+background-color: #000000;
+border-radius:50px;
+}
+
+.img-left{
+float:left;
+margin: 10px 20px 10px 0;
+border:1px solid #c0c0c0;
+padding:5px;
+border-radius:50px;
+}
+
+.img-center{
+display:block;
+margin:20px auto;
+border:1px solid #c0c0c0;
+padding:5px;
+border-radius:50px ;
+}
+
+/*  --------------- Home Page -----------------  */
+
+body {
+  background-color: rgb(23, 22, 22);
+  font-family: Rubik, sans-serif;
+  margin: 0;
+  height: 100vh;
+  width:100vw;
+  padding: 0;
+  
+  
+}
+
+
+.primary{
+  background-color: rgb(27, 26, 26);
+  
+  display: flexbox;
+  
+}
+
+header.primary nav {
+  max-width: 900px;
+  margin: 20px auto;
+  max-width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
+
+h2{
+  color: white;
+  text-align: center;
+  
+}
+
+  header.primary ul {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    
+  }
+  
+
+
+
+header.primary ul li {
+  list-style-type: none;
+  border-radius: 50px;
+  background-color: gray;
+  font-size: large;
+}
+
+header.primary nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 7.5px 10px;
+  border-radius: 20px;
+  transition: 0.4s;
+  
+}
+
+header.primary nav a:hover {
+  color: rgb(27, 26, 26);
+  box-shadow: 2px 2px black;
+}
+
+.hgroup h1 a{
+  text-decoration: none;
+  color: rgb(106, 63, 158);
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font: 1.2rem Arial, sans-serif;
+  opacity: .7;
+  
+
+}
+
+
+
+#colophon footer h6 span {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+
+}
+
+#colophon {
+  position: bottom;
+  bottom:0;
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  
+ 
+}
+ 
+main{
+  background-image: url('../img/spaxexdragon.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; 
+  
+}
+
+.main-p{
+padding: 10px;
+margin: 20px;
+}
+
+img{
+width: 250px;
+margin:10px;
+}
+
+
+  .main-2{
+      background-image: url('../img/spacexdragon2.jpeg');
+  }
+
+      .main-3 {
+          background-color: rgb(27, 26, 26);
+          background-image: none;
+      }
+
+#blog{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+gap:2rem;
+border-bottom:1px dotted black;
+padding: 2rem 0;
+border-top:1px dotted black;
+flex-wrap:wrap;
+
+}
+
+
+
+
+#blog h2 {
+flex:0 0 100%;
+margin:0;
+text-align:center;
+text-decoration: underline;
+}
+
+#blog .post{
+box-shadow: 0 4px 8px rgba(0,0,0,.6);
+background-color: rgb(27,26,26);
+padding: 10px;
+border-radius:4px;
+font-size:.8rem;
+transition:.5s;
+flex:1;
+color:white;
+opacity: .9;
+}
+
+#blog figure{
+margin:0;
+}
+
+#blog figcaption{
+text-transform:uppercase;
+font-size:.6rem;
+text-align:center;
+color:rgb(255, 255, 255);
+}
+
+#blog header{
+padding-top:10px;
+font-size:.6rem;
+color:white;
+}
+
+#blog header h2{
+margin:0;
+}
+
+.container img{
+
+width: 100%;
+height: 200px;;
+margin: 10px 0;
+
+}
+
+#blog a{
+color:rgb(30, 148, 194);
+}
+
+#blog .post:hover{
+box-shadow: 0 15px 20px rgba(0,0,0,.6);
+}
+
+#colophon p{
+color: white;
+background-color: black;
+}
+#colophon p a{
+color:rgb(95, 197, 238);
+
+}
+
+p{
+color:white;
+background-color: rgb(27, 26, 26);
+opacity: .7;
+}
+
+.post-content li span{
+text-decoration: underline;
+;
+
+}
+
+.post-content li{
+list-style-type: none;
+margin: 10px 0;
+}
+
+/*  --------------- FAQ -----------------  */
+
+.main-3{
+background-color: grey;
+}
+
+.faq-content p{
+background-color: rgb(0, 0, 0);
+padding: 20px;
+margin:10px;
+border-radius: 10px;
+
+}
+
+.faq-content li{
+color: white;
+text-align: center;
+padding: 15px;
+list-style-type: none;
+
+
+}
+
+.faq-title{
+text-decoration: underline;
+color: black;
+font-weight: bold;
+font-size: 2rem;
+}
+
+/* --------------- History----------------- */
+
+
+table{
+width: 80%;
+border-collapse: collapse;
+margin: 20px;
+background-color: rgb(27, 26, 26);
+opacity: .9;
+border-radius: 25px 50px 25px 50px;
+
+}
+
+th{
+background-color: rgb(0, 0, 0);
+color: white;
+padding: 10px;
+}
+
+td{
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+tr:nth-child(even){
+background-color: grey;
+}
+
+.history-info{
+padding: 10px;
+margin: 10px;
+border-radius: 25px;
+background-color: rgb(27, 26, 26);
+opacity: .9;
+}
+
+.info h2{
+text-align: center;
+color: white;
+text-decoration: underline;
+}
+
+  
+
+
+
+
+@media screen and (max-width: 600px) {
+header.primary ul {
+  flex-direction: column;
+  gap:10px;
+  max-width:250px;
+  margin:auto;
+}
+header.primary nav a{
+  display:block;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  header.primary ul {
+    flex-direction: column;
+    gap:10px;
+    max-width:250px;
+    margin:auto;
+  }
+  header.primary nav a{
+    display:block;
+  }
+}
