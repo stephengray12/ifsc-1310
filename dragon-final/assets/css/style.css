@@ -23,6 +23,22 @@ max-width:100%;
 height: auto;
 }
 
+/*  --------------- Background images for page -----------------  */
+
+.main-2{
+  background-image: url('../img/spacexdragon2.jpeg');
+}
+
+  .main-3 {
+      background-color: rgb(27, 26, 26);
+      background-image: none;
+  }
+
+
+.main-3{
+  background-color: grey;
+  }
+
 
 /*  --------------- Utility Classes -----------------  */
 
@@ -79,7 +95,6 @@ body {
 }
 
 header.primary nav {
-  max-width: 900px;
   margin: 20px auto;
   max-width: 100%;
   height: 40px;
@@ -143,24 +158,6 @@ footer {
 
 }
 
-
-
-#colophon footer h6 span {
-  color: white;
-  font-weight: bold;
-  font-size: x-large;
-
-}
-
-#colophon {
-  position: bottom;
-  bottom:0;
-  width: 100%;
-  background-color: black;
-  padding: 10px;
-  
- 
-}
  
 main{
   background-image: url('../img/spaxexdragon.webp');
@@ -180,15 +177,6 @@ width: 250px;
 margin:10px;
 }
 
-
-  .main-2{
-      background-image: url('../img/spacexdragon2.jpeg');
-  }
-
-      .main-3 {
-          background-color: rgb(27, 26, 26);
-          background-image: none;
-      }
 
 #blog{
 display:flex;
@@ -261,14 +249,6 @@ color:rgb(30, 148, 194);
 box-shadow: 0 15px 20px rgba(0,0,0,.6);
 }
 
-#colophon p{
-color: white;
-background-color: black;
-}
-#colophon p a{
-color:rgb(95, 197, 238);
-
-}
 
 p{
 color:white;
@@ -287,11 +267,37 @@ list-style-type: none;
 margin: 10px 0;
 }
 
+/*  --------------- Footer for page -----------------  */
+
+#colophon footer h6 span {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+
+}
+
+#colophon {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  
+ 
+}
+
+
+#colophon p{
+  color: white;
+  background-color: black;
+  }
+  #colophon p a{
+  color:rgb(95, 197, 238);
+  
+  }
+
 /*  --------------- FAQ -----------------  */
 
-.main-3{
-background-color: grey;
-}
 
 .faq-content p{
 background-color: rgb(0, 0, 0);
@@ -360,34 +366,47 @@ color: white;
 text-decoration: underline;
 }
 
+/* --------------- Carousel----------------- */
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: rgb(180, 113, 11);
   
-
-
-
-
-@media screen and (max-width: 600px) {
-header.primary ul {
-  flex-direction: column;
-  gap:10px;
-  max-width:250px;
-  margin:auto;
-}
-header.primary nav a{
-  display:block;
-}
 }
 
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:orange;
+    
+}
+
+.slick-prev-icon:before{
+  color:rgb(180, 113, 11);
+
+}
+
+.slick-next-icon:before{
+  color: rgb(180, 113, 11);
+}
 
 
+.slick-dot-icon:before{
+  color:rgb(180, 113, 11);
+}
 
-
-
-
-
-
-
-
-
+.container{
+  margin:40px auto;
+  width:30vw;
+  max-width:700px;
+}
 
 
 
