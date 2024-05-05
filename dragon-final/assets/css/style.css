@@ -274,7 +274,7 @@ margin: 10px 0;
 }
 
 #colophon {
-  position: relative;
+  position: absolute;
   bottom:0%;
   width: 100%;
   background-color: black;
@@ -294,6 +294,7 @@ margin: 10px 0;
 
   #colophon  a{
   color:rgb(95, 197, 238);
+  text-decoration: none;
   
   }
 
