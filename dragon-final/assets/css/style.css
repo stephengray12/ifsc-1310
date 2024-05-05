@@ -163,15 +163,6 @@ header.primary nav a:hover {
   color: rgb(106, 63, 158);
 }
 
-footer {
-  color: white;
-  text-align: center;
-  padding: 10px;
-  font: 1.2rem Arial, sans-serif;
-  opacity: .7;
-  
-
-}
 
 .main-p{
 padding: 10px;
@@ -283,8 +274,8 @@ margin: 10px 0;
 }
 
 #colophon {
-  position: absolute;
-  bottom:0;
+  position: relative;
+  bottom:0%;
   width: 100%;
   background-color: black;
   padding: 10px;
@@ -302,31 +293,66 @@ margin: 10px 0;
   
   }
 
+  footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font: 1.2rem Arial, sans-serif;
+    opacity: .7;
+   
+    
+  
+  }
+
 /*  --------------- FAQ -----------------  */
 
 
-.faq-content p{
-background-color: rgb(0, 0, 0);
-padding: 20px;
-margin:10px;
-border-radius: 10px;
-
-}
-
-.faq-content li{
-color: white;
-text-align: center;
-padding: 15px;
-list-style-type: none;
-
-
-}
 
 .faq-title{
 text-decoration: underline;
 color: black;
 font-weight: bold;
 font-size: 2rem;
+text-align: center;
+
+}
+
+/*----------------- FAQ Accordion styles ----------------- */
+
+.accordion p{
+  display: none;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(3, 3, 3);
+  color: rgb(219, 49, 49);
+  text-align: left;
+  text-indent: 2em;
+}
+
+.accordion h3{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+
+}
+
+.accordion h3:hover{
+  background-color: rgb(43, 41, 41);
+}
+
+.accordion p.active{
+  display: block;
+  background-color: rgb(27, 26, 26);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 50%;
 }
 
 /* --------------- History----------------- */
