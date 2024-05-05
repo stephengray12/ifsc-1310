@@ -476,8 +476,5 @@ text-decoration: underline;
   header.primary nav a{
     display:block;
   }
-  .post{
-    width:80%;
-    height:80%;
-  }
+  
 }
