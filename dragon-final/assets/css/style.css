@@ -468,7 +468,7 @@ text-decoration: underline;
 
 @media screen and (max-width: 600px) {
   header.primary ul {
-    flex-direction: column;
+    flex-direction: row;
     gap:10px;
     max-width:250px;
     margin:auto;
