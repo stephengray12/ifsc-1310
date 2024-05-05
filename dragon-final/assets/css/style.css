@@ -284,11 +284,15 @@ margin: 10px 0;
 }
 
 
-#colophon p{
+#colophon h6{
   color: white;
   background-color: black;
+  text-align: center;
+  font-size: large;
   }
-  #colophon p a{
+
+
+  #colophon  a{
   color:rgb(95, 197, 238);
   
   }
