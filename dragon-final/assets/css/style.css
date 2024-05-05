@@ -279,16 +279,12 @@ margin: 10px 0;
   font-size: x-large;
 
 }
-
-#colophon {
-  position: absolute;
+ #colophon {
   bottom:0;
   width: 100vw;
   background-color: black;
   padding: 10px;
   clear:both;
-  
-  
   
  
 }
