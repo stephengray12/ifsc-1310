@@ -274,7 +274,6 @@ margin: 10px 0;
 }
 
 #colophon {
-  position: absolute;
   bottom:0%;
   width: 100%;
   background-color: black;
@@ -477,11 +476,6 @@ text-decoration: underline;
   header.primary nav a{
     display:block;
   }
-  #colophon{
-    position: absolute;
-    bottom:0%;
-    width: 100%;
-    background-color: black;
-  }
+  
   
 }
